@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-router.get('/', (req, res) => {
+router.get('/tasks', (req, res) => {
     res.status(200).send('o router ta funcionando')
 })
 
